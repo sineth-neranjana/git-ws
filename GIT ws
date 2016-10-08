@@ -1,0 +1,21 @@
+git merge
+	git checkout feature
+	git merge master
+	NON destructive mechanism
+	Additional commit (down side: in a heavily active repo)
+Rebase 
+	master branch head----> feature 1st commits parent
+	rewrites history
+	dont use in a public branch
+
+interactive rebase
+
+
+git stash
+	stack of uncommitted changes 
+	useful when switching between branches
+git alias
+	gti config --global 
+git bisect
+	to find the commit that introduced a bug/something
+	to exit: git bisect reset
